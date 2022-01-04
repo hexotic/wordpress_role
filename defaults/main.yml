@@ -1,0 +1,19 @@
+---
+administrator: Chris
+email_address: clevantis21@outlook.fr
+
+# Docker variables
+# Docker network name
+wp_network: wordpress
+mysql_container_name: wp_db
+wordpress_container_name: wordpress
+
+#
+mysql_root_password: password
+mysql_database: wp_db
+mysql_user: chris
+mysql_password: chris
+mysql_dir: /wordpress/db
+
+# Exposed port
+wordpress_port: 8080
