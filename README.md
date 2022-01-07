@@ -1,6 +1,9 @@
 Ansible Role: wordpress_role
 -------
 
+To get the roles:
+`ansible-galaxy install -r roles/requirements.yml`
+
 Supported distributions:
 * ubuntu
 * centos
